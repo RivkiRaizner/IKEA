@@ -1,0 +1,428 @@
+body{
+    direction: rtl;
+    font-family: Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* #all_pictures{
+    width: 100vh;   
+} */
+/* #all_pictures {
+    width: 100%;
+    height: 100%;
+} */
+#Textopen{
+text-align: center;
+}
+#Textopen a{
+    text-decoration: none;
+   
+}
+#Textopen h3{
+     border: 2px solid #11508f;
+    color: #11508f;
+    padding: 2vh;
+    padding-left: 4vh;
+
+    padding-right: 4vh;
+    display: inline-block;
+}
+#ikea_sticky{
+    position: sticky;
+    display: inline-block;
+    /* height: 60px;
+    width: 20px; */
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vh;
+    padding-left: 2vh;
+    padding-right:10vh;
+}
+#icons{
+    margin-top: 20vh;
+    margin-right: 28vh;
+    display: inline-block;
+    width: 7vh;
+    height: 15vh;
+    /* display: inline-block;
+    left: 0%;
+    width: 7vh;
+    height: 15vh; */
+    /* לשאול איל לעשות בל margin */
+}
+
+#icons img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+#ikea_israel{
+   margin-right:40px ;   
+}
+#ikea_israel h3{
+    font-weight: bolder;
+    font-size: 18px;
+}
+#ikea_israel .servive{
+    font-weight: bolder;
+    font-size: 15px;
+}
+#ikea_israel .numberphone{
+      color: rgb(38, 107, 190);
+    font-weight: bolder;
+}
+#ikea_israel span a{
+    color: rgb(38, 107, 190);
+    text-decoration: none;
+}
+#ikea_israel span{
+    line-height: 2;
+}
+#ikea_israel p{
+    width: 65vh;
+    text-align: right;
+    line-height: 2;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img_footer{
+    width: 450px;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+}
+.ikea_img img{
+width:555px;
+height: 230px;
+}
+.kategorys{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: rgb(211, 199, 180);
+}
+#services{
+    display: flex;
+    flex-direction:row;
+    margin-right: 50vh;
+    flex-wrap: wrap;
+}
+#services div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vh;
+    flex-wrap: wrap;
+}
+#services a{
+    text-decoration: none;
+    color: black;
+}
+#leftservices{
+    text-align: center;
+    padding: 3vh;
+    border-right: 1px rgb(235, 231, 231) solid;
+}
+#ser{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px rgb(221, 219, 219) solid;
+    border-bottom: 1px rgb(221, 219, 219) solid;
+    padding: 4vh;
+}
+#article
+{
+    width:1260px;
+}
+nav{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+#firsrNav div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /* height: 40vh;
+    width: 40vh; */
+}
+nav div:hover{
+    cursor: pointer;
+}
+#ikea_sticky nav a{
+    margin-left: 11vh;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-right:2vh;
+    padding-left:2vh ;
+    padding-top:2vh;
+    width: 35vh;
+    height:3vh ;
+    text-align: center;
+    padding-bottom: 1vh;
+}
+nav div img{
+    width: 175px;
+    height: 175px;
+}
+.article{
+    width: 100%;
+}
+ h2{
+    font-weight:700;
+    text-align: center;
+    font-size:35px;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+article #top{
+   
+    font-weight: bolder;
+    text-align: center;
+    padding: 1vh;
+    /* border: solid 1px rgb(7, 67, 136); */
+    background-color: rgb(7, 67, 136);
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+ article a #top span,#navMain a{
+    text-decoration: none;
+    color: white;
+}
+#listHeader{
+
+margin-right: 4vh;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+#navMain a
+{
+    background-color: rgb(7, 67, 136);
+    padding-left: 5vh;
+    padding-right: 5vh;
+    width: 20vh;
+    bottom: 0;
+    border: solid 1px rgb(7, 67, 136);
+    border-radius:4px ;
+}
+#navMain div a{
+    bottom: 0;
+}
+#plusMinuse :nth-child(1),:nth-child:hover{
+cursor: pointer;
+}
+
+/* #navMain{
+    display: flex;
+    flex-direction: row;
+} */
+#divs div{
+    display: inline-block;
+    margin-left: 13vh;
+}
+#kat{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#kat div{
+display: flex;
+flex-direction: column;
+cursor: pointer;
+margin-right: 4vh;/*////////////////////////////////////////////*/
+margin-left: auto;/*///////////////////////////////////////////*/
+}
+.searchSomthing,.searchSomthing2 {
+    border: 1px solid #eff1ed 15px;
+    background-color:#eff1ed ;
+    padding: 2vh; 
+}
+.searchSomthing:focus{
+    border: 1px solid #eff1ed 15px;
+    background-color:#eff1ed ;
+    padding: 2vh;
+
+}
+#containerProd a:hover{
+    cursor: pointer;
+}
+#containerProd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20%;
+    height:60vh;
+    width: 60vh;
+}
+#containerProd img{
+    width: 56vh;
+    height: 56vh;
+}
+#ikea_sticky nav {
+    display: flex;
+    flex-direction: row;
+}
+#as{
+    display: flex;
+    justify-content: space-around;
+    margin-right: -15vh;
+}
+#divs{
+    padding-right: 20vh;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15vh;
+}
+#bage:hover{
+cursor: pointer;
+
+}
+#plusMinuse,#plusMinuse2{
+    display: flex;
+    justify-content: right;
+}
+#plusMinuse div,#plusMinuse2,.minus2,.plus2{
+   cursor: pointer;
+   
+}
+#plusMinuse  #sum_quantity,#plusMinuse2  .quantity2 {
+    padding: 2vh;
+    padding-left:5vh;
+    padding-right: 5vh;
+    border: rgb(148, 146, 146) 0.5px solid;
+}
+#plus,#minus,.plus2,.minus2{
+    padding: 2vh;
+    border: rgb(202, 189, 189) 0.5px solid;
+}
+#containerProd {
+    display: flex;
+    flex-direction: row;
+
+}
+#quantity{
+    border-top: 1px solid #8e9092;
+}
+#a{
+    color: #7699e6;
+}
+#quantity{
+    display: flex;
+    justify-content: space-between;
+    padding-top:2vh;
+    margin-bottom: 9vh;
+}
+#quantity small{
+    margin-top:2vh;
+}
+#quantity>div{
+    height:7vh;
+}
+#shopBage{
+    background-color: rgb(7, 67, 136);
+    padding-left: 3vh;
+    padding-right:3vh;
+    width: 30vh;
+    bottom: 0;
+    border: solid 1px rgb(7, 67, 136);
+    border-radius:4px ;
+    color: white;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+#bage{
+    width: 20px;
+}
+#pageOpenBig{
+    width: 60%;
+    height:50%;
+}
+#smallImg{
+    width: 25vh;
+    height: 25vh;
+}
+.english{
+    font-weight: bolder;
+    font-size: 5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#price{
+    font-weight:900;
+    font-size: 5vh; 
+}
+#makat{
+    font-size: 12px;
+}
+#openWindow{
+    width:45vh;
+    height: 30vh;
+    padding: 3vh;
+    border: 1px solid #c2c1c1;
+    display: inline-block;
+    top: 2vh;
+    left: 3vh;
+    margin-right: 5vh;
+}
+#openWindow img{
+    width: 10vh;
+    height: 10vh;
+}
+#openWindow h3{
+ font-weight: bolder;
+ font-size: 15px;
+}
+#allKitchens h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#end{
+    border: 1px solid #a09e9e;
+    padding: 2vh;
+}
+#allSum{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.divim{
+    border-bottom: 1px solid #a09e9e;
+    width:70%;
+    line-height: 2;
+}
+#removeAll,#toPay{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    padding: 3vh;
+    padding-right: 6vh;
+    padding-left: 6vh;
+    text-align: center;
+   
+}
+#toPay a{
+     text-decoration: none;
+     color: black;
+}
+#toPay:hover{
+    cursor: pointer;
+}
+.x{
+    cursor: pointer;
+}

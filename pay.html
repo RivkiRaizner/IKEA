@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>pay</title>
+</head>
+<link rel="stylesheet" href="main.css"> 
+<body>
+    <img src="assets/ikea.jpg" id="background">
+    
+    <div id="#allSum"></div>
+  <span id="textform">  הסכום לתשלום הוא: </span>
+    <form action="finished.html">
+     <div id="bigformid">           
+        <div id="formid">
+         <span id="textform">פרטים אישיים</span>
+         <br><br>
+        <label for="firstname">שם פרטי</label> <br><input type="text" name="firstname"  title="הכנס שם פרטי" id="firstname" required/>
+        <br>
+        <label for="lastname">שם משפחה</label><br> <input type="text" name="lastname" title="הכנס שם משפחה"  id="lastname" required/>
+        <br>
+        <label for="phonenumber">טלפון</label><br><input type="text" name="number" title="הכנס מספר טלפון" id="phonenumber" required minlength="9"/>
+        <br>
+        <label for="gmail">כתובת מייל</label> <br><input type="email" name="email" placeholder="@gmail.com" title="הכנס כתובת מייל עדכנית" id="gmail" required/>
+        <br>
+        <label>עיר</label> <br>
+        <select name="city" title="בחר עיר">
+            <option>ירושלים</option>
+            <option>בני ברק</option>
+            <option selected>מודיעין עילית</option>
+            <option>אלעד</option>
+            <option>ביתר עילית</option>
+            <option>תל אביב</option>
+        </select><br>
+        <label for="street">רחוב</label><br> <input type="text" name="street" title="הכנס רחוב מגורים" id="street"/><br>
+        <label for="homenum">מספר בית</label> <br><input type="number" name="num" title="הכנס מספר בית" class="small" id="homenum"/><br>
+        </div>
+        <div id="formid">
+        <span id="textform"> פרטי תשלום</span><br><br>
+        <label for="number">מספר אשראי</label><br><input type="number" name="number" title="הכנס מספר אשראי" id="phonenumber" required minlength="16"/>
+        <br>
+        <label for="tokef"> תוקף</label><br><input type="number" name="number" title="הכנס מספר אשראי" id="phonenumber" required minlength="4"/>
+        <br>
+        <label for="cvv">  cvv</label><br><input type="number" name="number" title="הכנס מספר אשראי" id="phonenumber" required minlength="3"/>
+        <br>
+        </div>
+    </div>
+        <button type="submit" >לשליחת ההזמנה</button>
+        <button type="reset">ניקוי</button>
+   
+    </form>
+    <footer id="ikea_sticky">
+        <nav id="navMain">
+            <div id="divs">
+            <div>
+                <p>
+                    <strong>פגישות יעוץ מטבחים</strong>
+                    <p>
+                        קבלו עכשיו פגישה עם יועץ מטבחים<br>
+                        שילווה אתכם בכל שלב בתהליך
+                    </p>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <strong>מאבזרים את המטבח</strong>
+                    <p>
+                       בדרך להגשים את מטבח החלומות<br>
+                        שלכם בטוח תמצאו רעיונות שיתאימו<br>
+                        לכם כאן
+                    </p>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <strong>סיור במחלקת מטבחים בכל שעה!</strong>
+                    <p>
+                        הכנסו לסיור הוירטואלי במחלקת<br>
+                       מטבחים גם כשהחנות סגורה.
+                    </p>
+                </p>
+            </div>
+        </div>
+            <div id="as">
+                 <a href="Main.html">חזרה לעמוד הראשי</a>
+                    <a href="meet.html">לתיאום פגישה עם יועץ מטבחים</a>
+                    <a href="Main.html#nav">כלים ואביזרים למטבח</a>
+                    <a href="virtualKitchens.html">לסיור וירטואלי</a>
+            </div>
+        </nav>
+        <div id="footer">
+            <div id="ikea_israel">
+                    <h3>איקאה ישראל</h3>
+                    <span class="servive">שירות לקוחות</span><br>
+                    <span class="numberphone">098928888</span><br>
+                    <span class="information"><a href="oops.html">מידע על החנות</a></span>
+                <p>
+                    נתניה: רח' גיבורי ישראל 1,אזה"ת פולג.<br>
+                    ראשל"צ: רח' היוזמה 1, מרכז עסקים שורק כביש פלמחים.<br>
+                     קריית אתא: דרך חיפה 52.באר שבע: רח' הירדן 24.<br>
+                     אשתאול: המלאכה 7 אזה"ת הר טוב<br>
+                     איקאה מטבחים נמל תל אביב: התערוכה 3 (ביתן 11).<br>
+                </p>
+            </div>
+            <div class="ikea_img">
+                <img src="images_logo sticky/תמונה חנות.jpg">
+    
+            </div>
+            <div id="icons">
+                <a href="oops.html"> <img  src="images_logo sticky/איקון 0.png" title="02-9038888"></a>
+                <a href="oops.html"> <img src="images_logo sticky/איקון 1.png" title="025471542"></a>
+                <a href="oops.html"><img src="images_logo sticky/איקון 2.png" title="ikeaKitchens@.co.il"></a>
+    
+                
+            </div>
+        </div>
+    
+    </footer>  
+    <script src="pay.js"></script>
+</body>
+</html>

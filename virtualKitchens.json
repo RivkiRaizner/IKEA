@@ -1,0 +1,95 @@
+{
+    "kitchens":[
+        {
+            "images":"images/virtual/1.jpg",
+            "descreption":"קבלת פנים חמימה ונעימה",
+            "color":"grey",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/2.jpg",
+            "descreption":"מודרני ומרגש",
+            "color":"black",
+            "categoryyy":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/3.jpg",
+            "descreption":"מטבח למתכונים נפלאים",
+            "color":"grey",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/4.jpg",
+            "descreption":"מקום מתוק לאפייה",
+            "color":"tree-brown",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/5.jpg",
+            "descreption":"לשחרר את השף הפנימי שבכם",
+            "color":"grey",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/7.jpg",
+            "descreption":"חכם ומבריק, עד הסנטימטר האחרון",
+            "color":"white",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/8.jpg",
+            "descreption":"מראה קלאסי בסגנון מודרני",
+            "color":"white",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/9.jpg",
+            "descreption":"עיצוב מטבח מסורתי לחיים מודרניים",
+            "color":"black",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/10.jpg",
+            "descreption":"הפיקו את המרב מחלל האחסון שלכם",
+            "color":"grey",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/11.jpg",
+            "descreption":"מטבח בו היצירתיות בידיים שלכם",
+            "color":"tree-brown",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/12.jpg",
+            "descreption":"מטבח ידידותי לסביבה",
+            "color":"black",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/13.jpg",
+            "descreption":"גוון שחור מרשים במיוחד",
+            "color":"black",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/14.jpg",
+            "descreption":"עיצוב שמתאים לחיי היומיום",
+            "color":"white",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/15.jpg",
+            "descreption":"להפוך את המטבח שלכם לייחודי",
+            "color":"tree-brown",
+            "category":"virtualKitchens"
+        },
+        {
+            "images":"images/virtual/16.jpg",
+            "descreption":"מראה מוקפד ומודרני",
+            "color":"black",
+            "category":"virtualKitchens"
+        }
+    ],
+    "arr":["kitchens"]
+}

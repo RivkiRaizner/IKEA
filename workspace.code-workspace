@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\תרגולים-ש.ב\\htmlקמינצקי\\פרויקט גמר אתר איקאה\\אתר איקאה\\פתיחת האתר"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "פתיחת האתר"
+	}
+}

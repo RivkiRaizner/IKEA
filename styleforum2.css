@@ -1,0 +1,185 @@
+html{
+    margin-top: 0%;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+    padding-top: 3%;
+}
+body{
+    /* border-top: rgb(206, 206, 57) solid 6px;
+    border-right: rgb(206, 206, 57) solid 6px;
+    border-left: rgb(206, 206, 57) solid 6px;
+    margin-top: 6%; */
+    border-top: rgb(7, 67, 136) solid 6px;
+    border-right: rgb(7, 67, 136) solid 6px;
+    border-left: rgb(7, 67, 136) solid 6px;
+    margin-top: 6%;
+}
+
+#text{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    line-height: 45px;
+    color: #5b5959;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(7, 67, 136);
+    margin-left: 2%;
+    box-shadow: 0.1px 0.1px 0.5px black;
+}
+.c1{
+    animation: circle1 1.5s ;
+    animation-iteration-count: 4;
+}
+.c2{
+    animation: circle2 1.5s;
+    animation-iteration-count: 4;
+}
+h4{
+    text-align: center;
+}
+.c3{
+    animation: circle3 1.5s;
+    animation-iteration-count: 4;
+}
+.c4{
+    animation: circle4 1.5s;
+    animation-iteration-count: 4;
+}
+#circle3{
+    display: flex;
+    justify-content: center;
+}
+#circle3, #text{
+    animation: non 60s ;
+    animation-delay: 6s;
+}
+#iconsave{
+    position: fixed;
+    left: 42%;
+    top: 20%;
+    animation: icon 8s;
+}
+#save p{
+    color: #5b5959;
+    font-size: 45px;
+    text-align: center;
+}
+#save{
+    animation: continue 8s;
+}
+#contineu{
+   text-align: center;
+}
+#contineu a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #5b5959;
+    font-size: 25px;
+    background-color: #00b395;
+    padding:1.5%;
+    width: 40%;
+}
+@keyframes icon{
+    0%{
+        opacity: 0%;
+    }
+    78%{
+        opacity: 0%;
+    }
+    80%{
+        transform: scale(0);
+        opacity: 100% ;
+    }
+    81%{
+        transform: scale(1.5);
+    }
+    84%{
+        transform: scale(0.5);
+    }
+    87%{
+        transform: scale(1);
+    }
+}
+@keyframes continue{
+    0%{
+        opacity: 0%;
+    }
+    78%{
+        opacity: 0%;
+    }
+    80%{
+       opacity: 100% ;
+    }
+}
+@keyframes circle1{
+   0%{
+        opacity: 0% ;
+    }
+    9.999999%{
+       opacity:  0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+}
+@keyframes circle2{
+    0%{
+         opacity: 0% ;
+     }
+     24.999999%{
+        opacity:  0%;
+     }
+     25%{
+         opacity: 100%;
+     }
+ }
+ @keyframes circle3{
+    0%{
+         opacity: 0% ;
+     }
+     49.999999%{
+        opacity:  0%;
+     }
+     50%{
+         opacity: 100%;
+     }
+ }
+ @keyframes circle4{
+    0%{
+         opacity: 0% ;
+     }
+     74.999999%{
+        opacity:  0%;
+     }
+     75%{
+         opacity: 100%;
+     }
+ }
+ @keyframes non{
+     0%{
+         opacity: 100%;
+     }
+     0.2%{
+         opacity: 0%;
+     }
+     100%{
+         opacity: 0%;
+     }
+ }
+ @media screen and (max-width: 700px)
+ {
+     body{
+         margin-top: 35%;
+     }
+     #iconsave{
+        top: 35%;
+     }
+ }
